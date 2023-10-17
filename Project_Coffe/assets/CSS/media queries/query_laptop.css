@@ -1,0 +1,17 @@
+@media (480px <= width <800px) {
+    body main{
+        display: grid;
+        grid-template-columns: calc(100vh/4);
+        grid-template-rows: calc(100vh/4); 
+        padding: 1rem;
+        gap: 2rem;
+        border: solid 2px red;
+        box-sizing: border-box;
+        grid-template-areas: 
+            "A B"
+            "C D"
+            "E F"
+            "G H"
+            "I ."
+    }
+}
