@@ -1,0 +1,93 @@
+@import url('/assets/CSS/root.css');
+main{
+    margin-top:4rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 700px));
+    gap: .5rem;
+
+    
+    justify-content: center;
+    align-items: start ;
+}
+
+main > section.container_img{
+    
+    margin: 1rem;
+}
+
+main > section.container_img > div{
+    
+    grid-area: "A";
+    max-width: 40vw;
+    min-width: 340px;
+    margin: auto;
+
+    background-color: var(--color3);
+    background-image:url(/assets/media/images/mockup_classic2.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    aspect-ratio: 2/2;
+    border-radius: 2rem;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset, rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+main > section.container_txt{
+    margin-top: 2rem;
+}
+main > section.container_txt > h1{
+    font-size: 35px;
+    margin-top: 3rem;
+}
+main > section.container_txt > h3{
+    font-size: 30px;
+    margin-top: 3rem;
+}
+main > section.container_txt > p{
+    font-size: 20px;
+    text-align:justify;
+}
+main > section.container_txt > div.container_bttn{
+
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;
+    
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 0.5rem;
+} 
+
+main > section.container_txt > div.container_bttn > div.bttn1{
+    background-color: #58d44a8c;
+    text-align: center;
+    padding: .7rem;
+    
+    flex-basis: 9rem;
+    border-radius: 2rem;
+
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px;
+}
+img{
+    width: 32px;
+}
+
+main > section.container_txt > div.container_bttn > div.bttn2{
+    margin-left: 3rem;
+    padding: 5px;
+    background-color: var(--color7);
+    border-radius: 50%;
+    height: 2rem;
+    flex-basis: 2rem; 
+
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px;
+
+    transition: all 1s;
+}
+
+main > section.container_txt > div.container_bttn > div.bttn2:hover{
+    background-color: var(--color5);
+    transition: all .5s;
+}

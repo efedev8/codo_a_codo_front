@@ -1,0 +1,14 @@
+:root{
+    --color1: #3c1615;
+    --color2: #64332a;
+    --color3: #985e43;
+    --color4: #d4955e;
+    --color5: #ffe7bbef;
+    --color6: #bba783;
+    --color7: #f2eddd;
+    --color8: #9e785c;
+    --colorBG: #eddecf;
+
+
+    background-color: var(--colorBG);
+}
