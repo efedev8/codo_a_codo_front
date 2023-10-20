@@ -23,7 +23,7 @@ main > section.container_img > div{
     margin: auto;
 
     background-color: var(--color3);
-    background-image:url(./assets/media/images/mockup_classic1.png);
+    background-image:url(../../media/images/mockup_classic1.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;

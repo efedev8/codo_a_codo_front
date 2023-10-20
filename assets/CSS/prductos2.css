@@ -1,4 +1,4 @@
-@import url('./assets/CSS/root.css');
+@import url('root.css');
 
 
 main{
@@ -39,63 +39,63 @@ main > a > section:hover{
 }
 
 main > a > section.item1{
-    background-image:url(/assets/media/images/mockup_classic1.png);
+    background-image:url(../media/images/mockup_classic1.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
     aspect-ratio: 2/2;
 }
 main > a > section.item2{
-    background-image:url(/assets/media/images/mockup_classic2.png);
+    background-image:url(../media/images/mockup_classic2.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
     aspect-ratio: 2/2;
 }
 main > a > section.item3{
-    background-image:url(/assets/media/images/mockup_classic3-2k.png);
+    background-image:url(../media/images/mockup_classic3-2k.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
     aspect-ratio: 2/2;
 }
 main > a > section.item4{
-    background-image:url(/assets/media/images/mockup_esp5.png);
+    background-image:url(../media/images/mockup_esp5.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
     aspect-ratio: 2/2;
 }
 main > a > section.item5{
-    background-image:url(/assets/media/images/mockup_esp4.png);
+    background-image:url(../media/images/mockup_esp4.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
     aspect-ratio: 2/2;
 }
 main > a > section.item6{
-    background-image:url(/assets/media/images/mockup_esp3.png);
+    background-image:url(../media/images/mockup_esp3.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
     aspect-ratio: 2/2;
 }
 main > a > section.item7{
-    background-image:url(/assets/media/images/mockup_esp2.png);
+    background-image:url(../media/images/mockup_esp2.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
     aspect-ratio: 2/2;
 }
 main > a > section.item8{
-    background-image:url(/assets/media/images/mockup_esp6.png);
+    background-image:url(../media/images/mockup_esp6.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
     aspect-ratio: 2/2;
 }
 main > a > section.item9{
-    background-image:url(/assets/media/images/mockup_esp1.png);
+    background-image:url(../media/images/mockup_esp1.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
