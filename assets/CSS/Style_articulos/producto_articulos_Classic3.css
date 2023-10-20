@@ -1,4 +1,4 @@
-@import url('./assets/CSS/root.css');
+@import url('../root.css');
 main{
     margin-top:4rem;
     display: grid;
