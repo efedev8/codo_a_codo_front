@@ -1,5 +1,23 @@
 @import url('root.css');
 
+@media only screen and (max-width: 1024px) {
+    body > main {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+@media only screen and (max-width: 750px) {
+    body > main {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+@media only screen and (max-width: 450px) {
+    body > main {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}
 
 main{
     display:grid;
@@ -18,13 +36,16 @@ main{
 
 main > a{
     text-decoration: none;
-    color: white;
+    color: #d0d8df;
 }
 main > a > section{
     text-align: center;
+    font-family: 'Work Sans';
+    letter-spacing: 4px;
+    
     background-color: var(--color3);
     border-radius: 2rem;
-    
+    box-shadow: rgba(0, 0, 0, 0.24) inset 0px 10px 40px 10px;
     transition: 2s;
 }
 main > a > section > h3{
@@ -35,11 +56,14 @@ main > a > section > h3{
 
 main > a > section:hover{
     transition: all .5s;
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 36px 20px -20px;
+    
+    box-shadow: rgba(0, 0, 0, 0.24) inset 0px 10px 40px 10px,rgba(0, 0, 0, 0.45) 0px 36px 20px -20px;
 }
 
 main > a > section.item1{
-    background-image:url(../media/images/mockup_classic1.png);
+    font-family: 'Work Sans';
+    letter-spacing: 4px;
+    background-image:url(/assets/media/images/mockup_classic1.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;

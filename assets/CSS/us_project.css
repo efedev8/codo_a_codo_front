@@ -1,39 +1,200 @@
 @import url('root.css');
-header{
-    height: calc(100vh/8);
-}
+
 
 main{
-    border: solid 5px red;
-
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+}
+main > section.container_txt{
+    max-width: 1500px;
+    padding: 6rem;
+    margin: auto;
+
+    text-justify: distribute-all-lines;
+    font-size: 2rem;
+}
+
+div.title{
+    font-size: 2rem;
+    text-align: center;
+}
+
+main > section.container_fonts1{
+    display: flex;
+    justify-content: space-evenly;
 
     margin-top: 2rem;
-    gap: 2rem;
 }
 
-main > section.container_img{
-    border: solid 3px blue;
+main > section.container_fonts2{
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
-main > section.container_img > img{
-    border-radius: 50%;
-    width: 10rem;
-    height: 10rem;
-    margin: 2rem;
-
-    border: solid 3px rgb(255, 0, 153);
+main > section > div:nth-child(1){
+    font-family: 'Work Sans';
+    text-transform: uppercase;
+}
+main > section > div:nth-child(2){
+    font-family: 'Space Grotesk';
+    text-transform: uppercase;
+}
+main > section > div:nth-child(3){
+    font-family: 'Space Mono';
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
-main > section.container_txt{
+div.font{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    border-bottom: 1px solid white;
+}
+
+main > section.container_colores{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem;
+    margin: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+main > section.container_colores > section.item{
+    height: 5rem;
+    padding: 2rem;
+
     font-style: italic;
-    font-weight: 500;
-    font-size: 1.5rem;
-    margin: 2rem;
+    text-align: center;
+}
 
-    
-    border: solid 3px rgb(4, 255, 0);
+main > section.container_colores > #item_1{
+    background-color: var(--color1);
+}
+main > section.container_colores > #item_2{
+    background-color: var(--color2);
+}
+main > section.container_colores > #item_3{
+    background-color: var(--color3);
+}
+main > section.container_colores > #item_4{
+    background-color: var(--color4);
+}
+main > section.container_colores > #item_5{
+    background-color: var(--color5);
+}
+main > section.container_colores > #item_6{
+    background-color: var(--color6);
+}
+main > section.container_colores > #item_7{
+    background-color: var(--color7);
+}
+main > section.container_colores > #item_8{
+    background-color: var(--color8);
+}
+
+main > section.container_icons{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(20px, 130px));
+    padding: 2rem;
+    gap: 4rem;
+    margin: auto;   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+main > section.container_icons > section > p{
+    font-size: 1.5rem;
+    margin-top: 60px;
+}
+
+main > section.container_icons > section{
+    background-color: white;
+}
+main > section.container_icons > section.item-I{
+    max-height: fit-content;
+}
+main > section.container_icons > section:nth-child(1){
+    border-radius: 50%;
+    box-shadow: var(--color1) 10px 12px 0px;
+
+    background-image: url(/assets/media/icons/coffee-cup_main.svg);
+    background-size: 50%, 50%;
+    background-repeat: no-repeat;
+    background-position:center;
+    aspect-ratio: 1/1;
+}
+main > section.container_icons > section:nth-child(2){
+    border-radius: 50%;
+    box-shadow: var(--color1) 10px 12px 0px;
+
+    background-image: url(/assets/media/icons/beans_main.svg);
+    background-size: 50%, 50%;
+    background-repeat: no-repeat;
+    background-position:center;
+    aspect-ratio: 1/1;
+}
+main > section.container_icons > section:nth-child(3){
+    border-radius: 50%;
+    box-shadow: var(--color1) 10px 12px 0px;
+
+    background-image: url(/assets/media/icons/coffee-bag-bean_prod_café.svg);
+    background-size: 50%, 50%;
+    background-repeat: no-repeat;
+    background-position:center;
+    aspect-ratio: 1/1;
+}
+main > section.container_icons > section:nth-child(4){
+    border-radius: 50%;
+    box-shadow: var(--color1) 10px 12px 0px;
+
+    background-image: url(/assets/media/icons/group_us.svg);
+    background-size: 50%, 50%;
+    background-repeat: no-repeat;
+    background-position:center;
+    aspect-ratio: 1/1;
+}
+main > section.container_icons > section:nth-child(5){
+    border-radius: 50%;
+    box-shadow: var(--color1) 10px 12px 0px;
+
+    background-image: url(/assets/media/icons/user-circle_account.svg);
+    background-size: 50%, 50%;
+    background-repeat: no-repeat;
+    background-position:center;
+    aspect-ratio: 1/1;
+}
+main > section.container_icons > section:nth-child(6){
+    border-radius: 50%;
+    box-shadow: var(--color1) 10px 12px 0px;
+
+    background-image: url(/assets/media/icons/search_nav.svg);
+    background-size: 50%, 50%;
+    background-repeat: no-repeat;
+    background-position:center;
+    aspect-ratio: 1/1;
+}
+main > section.container_icons > section:nth-child(7){
+    border-radius: 50%;
+    box-shadow: var(--color1) 10px 12px 0px;
+
+    background-image: url(/assets/media/icons/shop_bag_nav.svg);
+    background-size: 50%, 50%;
+    background-repeat: no-repeat;
+    background-position:center;
+    aspect-ratio: 1/1;
+}
+main > section.container_icons > section:nth-child(8){
+    border-radius: 50%;
+    box-shadow: var(--color1) 10px 12px 0px;
+
+    background-image: url(/assets/media/icons/user_nav.svg);
+    background-size: 50%, 50%;
+    background-repeat: no-repeat;
+    background-position:center;
+    aspect-ratio: 1/1;
 }

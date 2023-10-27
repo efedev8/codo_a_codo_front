@@ -1,0 +1,87 @@
+@import url(/assets/CSS/root.css);
+
+@media only screen and (max-width: 820px) {
+        body > main {
+            flex-direction: column;
+        }
+
+        body > main > section.container_ingreso{
+            align-self: center;
+        }
+}
+@media only screen and (max-width: 600px) {
+    body > main {
+        transform: scale(.9);
+    }
+}
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content;
+    margin: auto;
+    padding: 5rem;
+
+    border-radius: 2rem;
+    background: rgb(190,216,237);
+    background: linear-gradient(120deg, rgb(190, 216, 237) 0%, rgba(225,228,231,1) 100%);
+
+    box-shadow: -3px -6px 62px 15px rgba(3,3,3,0.42) inset, #f2edddcc 12px 12px 0px;
+}
+
+main > section.container_ingreso{
+    align-self: flex-start;
+    text-align: center;
+    margin: 1rem ;
+}
+
+main > section.container_registro{
+    text-align: center;
+    margin: 1rem ;
+}
+
+input{
+    font-family: 'Space Mono';
+    text-align: center;
+    width: 20rem;
+    height: 2rem;
+    margin: .7rem;
+
+    border-radius: 8px;
+    border: none;
+    outline: none;
+
+    transition: all 1s;
+}
+
+button{
+    font-family: 'Space Mono';
+    font-weight: bold;
+
+    width: 12rem;
+    height: 2rem;
+    margin: .7rem;
+
+    border-radius: 8px;
+    border: none;
+    outline: none;
+
+    transition: all 1s;
+}
+
+input:hover{
+    transition: all .5s;
+
+    background-color: #cccc;
+    transform: scale(1.1);
+}
+
+
+button:hover{
+    transition: all .5s;
+    
+    box-shadow: #868181cc 7px 7px 5px -5px;
+
+    cursor: pointer;
+}

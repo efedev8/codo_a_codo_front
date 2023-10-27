@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&family=Work+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
 :root{
     --color1: #3c1615;
     --color2: #64332a;
@@ -9,6 +13,38 @@
     --color8: #9e785c;
     --colorBG: #eddecf;
 
+    
+    background: rgb(110,67,47);
+    background: linear-gradient(312deg, rgba(110,67,47,1) 0%, rgba(100,51,42,1) 30%, rgba(60,22,21,1) 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 
-    background-color: var(--colorBG);
+    font-family: 'Space Grotesk', 'Work Sans', sans-serif, 'Space Mono', monospace;
+
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background: linear-gradient(130deg, rgba(100,51,42,1) 0%, rgba(110,67,47,1) 100%);
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(119, 85, 80);
+    border-radius: 5px;
+}
+
+p{
+    font-family:'Space Grotesk';
+}
+
+h1, h3{
+    font-family: 'Work Sans';
+}
+
+a{
+    font-family: 'Space Mono';
+}
+
+div.bttn1{
+    font-family: 'Work Sans';
 }
