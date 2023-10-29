@@ -31,7 +31,6 @@ main{
     column-gap: 6rem;
     max-block-size: 1500px;
     max-inline-size: 1500px;
-
 }
 
 main > a{
@@ -52,11 +51,8 @@ main > a > section > h3{
     padding: 1rem;
 }
 
-
-
 main > a > section:hover{
     transition: all .5s;
-    
     box-shadow: rgba(0, 0, 0, 0.24) inset 0px 10px 40px 10px,rgba(0, 0, 0, 0.45) 0px 36px 20px -20px;
 }
 
@@ -125,4 +121,3 @@ main > a > section.item9{
     background-position:center;
     aspect-ratio: 2/2;
 }
-
