@@ -27,18 +27,18 @@
     <main>
         <section class="container_registro">
             <h3>Contáctenos</h3>
-            <form action="">
+            <form name="formContacto" onsubmit="return validarFormulario()" method="get" action="../../index.html">
                 <div>
                     <input type="text" id="name" placeholder="Nombre completo">
                 </div>
                 <div>
-                    <input type="email" placeholder="Email">
+                    <input type="email" id="email" placeholder="Email">
                 </div>
                 <div>
-                    <input type="text" placeholder="Número de télefono">
+                    <input type="text" id="telefono" placeholder="Número de télefono">
                 </div>
                 <div>
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese su mensaje"></textarea>
+                    <textarea  id="mensaje" cols="30" rows="10" placeholder="Ingrese su mensaje"></textarea>
                 </div>
                 <div>
                     <button type="submit">Enviar</button>
@@ -52,4 +52,5 @@
             mocca project - <a href="contacto.html"> contacto </a>
     </footer>
 </body>
+<script src="../JS/validaForm.js"></script>
 </html>
