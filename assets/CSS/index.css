@@ -22,7 +22,7 @@ main > section.container_txt > h1{
     text-align: start;
     margin: 8px;
 
-    font-size: 3.7rem;
+    font-size: 3rem;
     background: linear-gradient(120deg, rgba(190,216,237,1) 0%, rgba(225,228,231,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
