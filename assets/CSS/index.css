@@ -6,13 +6,10 @@ main{
 
 main > section.container_txt{
     width: 70vw;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
-    
     margin: auto;
     padding: 5rem;
 }
