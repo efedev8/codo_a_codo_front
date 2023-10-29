@@ -1,6 +1,4 @@
-@import url('root.css');
-
-
+@import url('/assets/CSS/root.css');
 main{
     display: flex;
     flex-direction: column;
@@ -14,32 +12,47 @@ main > section.container_txt{
     font-size: 2rem;
 }
 
-div.title{
+.title{
     font-size: 2rem;
     text-align: center;
 }
-
-#developers{
-    font-size: 1rem;
-    background-color: var(--color5);
-
+section.organizer{
+    margin: auto;
     display: flex;
-    padding: 2rem;
-    gap: 1rem;
-    margin: auto;   
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+}
+main > section.organizer > section.container_img{
+    display: flex;
+    flex-direction: column;
+    margin: 2.5rem;
+    align-self: center;
+    justify-self: center;
+}
+p.tag{
+    margin: 5px;
+    padding: 10px;
     text-align: center;
-    image-rendering: auto;
-}
-img{
+    font-size: 18px;
 
+    border-radius: .7rem;
+    background: linear-gradient(135deg, rgba(159,146,233,1) 0%, rgba(216,183,231,1) 100%);
+    box-shadow: #5c5c95 4px 5px 4px;
+    box-shadow: rgba(17, 16, 16, 0.55) 0px 5px 10px;
 }
+
+
+main > section.organizer > section.container_img > img{
+    border-radius: 50%;
+    width: 14rem;
+    height: 14rem;
+    margin: 2rem;
+    box-shadow: rgba(41, 41, 48, 0.5) 4px 5px 4px;
+}
+
 
 main > section.container_fonts1{
     display: flex;
     justify-content: space-evenly;
-
     margin-top: 2rem;
 }
 
@@ -159,7 +172,7 @@ main > section.container_icons > section:nth-child(3){
     border-radius: 50%;
     box-shadow: var(--color1) 10px 12px 0px;
 
-    background-image: url(/assets/media/icons/coffee-bag-bean_prod_caf�.svg);
+    background-image: url(/assets/media/icons/coffee-bag-bean_prod_café.svg);
     background-size: 50%, 50%;
     background-repeat: no-repeat;
     background-position:center;
