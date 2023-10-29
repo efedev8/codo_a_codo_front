@@ -1,0 +1,42 @@
+@media only screen and (max-width: 1140px) {
+    body > main > section.container_txt > h1{
+        font-size: 28px;
+    }
+
+    body > main > section.container_txt > h3{
+        font-size: 25px;
+    }
+
+    body > main > section.container_txt > p{
+        font-size: 18px;
+    }
+
+    body > main > section.container_txt > div.container_bttn{
+        margin: 0px; 
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    body > main{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    body h1{
+        text-align: center;
+    }
+    body h3{
+        text-align: center;
+    }
+    body > main > section.container_txt > p{
+        font-size: 21px;
+        text-align: center;
+        text-align:justify;
+    }
+    body > main > section.container_txt {
+        margin: auto;
+    }
+    body > main > section.container_txt > div.container_bttn{
+        max-width: fit-content;
+        margin: auto
+    }
+}
