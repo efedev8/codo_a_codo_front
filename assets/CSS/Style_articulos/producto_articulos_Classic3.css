@@ -1,4 +1,5 @@
 @import url('../root.css');
+@import url('../media_queries/media_queries_articulos.css');
 main{
     margin-top:4rem;
     display: grid;
