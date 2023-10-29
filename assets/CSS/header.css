@@ -1,7 +1,7 @@
 @import url('root.css');
 
 header{
-    width: 80vw; 
+    width: 90vw; 
     height: calc(100vh/8);
     margin: auto;
 }
