@@ -10,18 +10,18 @@ const devRender = (datos_dev) => {
     //div.style.backgroundColor = datos_dev.color_status;
     //div.style.color = "white";
     //div.style.display = 'grid';
-  
+    
     let name = document.createElement("p");
     let picture = document.createElement("img");
     var tag = datos_dev.name + "\n"+ datos_dev.email;
-    
+    let div_dev = document.createElement("div");
+
     name.innerText = tag;
     picture.src = datos_dev.picture;
-    picture.width = 60;
-  
-    div.appendChild(name);
-    div.appendChild(picture);
-  
+    div_dev.appendChild(picture);
+    div_dev.appendChild(name);
+   
+    div.appendChild(div_dev);
     return div;
   };
 
