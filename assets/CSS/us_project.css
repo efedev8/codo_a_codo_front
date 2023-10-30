@@ -15,6 +15,10 @@ main > section.container_txt{
 .title{
     font-size: 2rem;
     text-align: center;
+    color: #c4c1d3;
+}
+p{
+    color:#0f0808;
 }
 section.organizer{
     margin: auto;
