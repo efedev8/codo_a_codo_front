@@ -18,3 +18,4 @@ Así como en la selección de iconos acorde a la sección en que se utilizará y
 
 -Se utilizo la siguiente API para levantar los datos de los desarrolladores en la sección de proyecto: "https://sheetdb.io/api/v1/pxwkunda9j04r"
  Con el token:"7wp2czbzp3d39onuss407c4q7opmedaubhormioh"
+-Alimentación de la API: https://docs.google.com/spreadsheets/d/1JXCNXFsbBUwEDnGrB_JxUkNEySiibx4-DA4V0HJUl3I/edit?usp=sharing
