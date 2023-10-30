@@ -4,7 +4,7 @@ Proyecto integral de Front-END - Comisión 23508
 •	Thiago Montenegro – maquetación, diseño general, implementaciones de css, estructuración con html.
 •	Emliano Fiore – funcionalidades con java scrypt e integración de la API.
 •	Sofia Zalazar – implementaciones en diseño con css, selección de colores.
-•	Camila Abarza - implementaciones en diseño con css, selección de iconos.
+•	Camila Abarza -implementaciones en diseño con css, selección de iconos.
 Link a la maqueta conjunta desarrollada por el grupo: https://www.figma.com/file/0xLZ6pNzceRxPODrDB9GIo/Project_mocca?type=whiteboard&node-id=0-1&t=9gazEnAB8Gh5Dm9o-0
 
 El proyecto fue pensado para funcionar como un e-commerce relacionado a los productos de café, tomando inspiración de sitios web de marcas reconocidas a nivel mundial.
