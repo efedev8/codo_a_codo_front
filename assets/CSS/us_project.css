@@ -186,7 +186,7 @@ main > section.container_icons > section:nth-child(1){
     border-radius: 50%;
     box-shadow: var(--color1) 10px 12px 0px;
 
-    background-image: url(/assets/media/icons/coffee-cup_main.svg);
+    background-image: url(../media/icons/coffee-cup_main.svg);
     background-size: 50%, 50%;
     background-repeat: no-repeat;
     background-position:center;
@@ -196,7 +196,7 @@ main > section.container_icons > section:nth-child(2){
     border-radius: 50%;
     box-shadow: var(--color1) 10px 12px 0px;
 
-    background-image: url(/assets/media/icons/beans_main.svg);
+    background-image: url(../media/icons/beans_main.svg);
     background-size: 50%, 50%;
     background-repeat: no-repeat;
     background-position:center;
@@ -206,7 +206,7 @@ main > section.container_icons > section:nth-child(3){
     border-radius: 50%;
     box-shadow: var(--color1) 10px 12px 0px;
 
-    background-image: url(/assets/media/icons/coffee-bag-bean_prod_café.svg);
+    background-image: url(../media/icons/coffee-bag-bean_prod_café.svg);
     background-size: 50%, 50%;
     background-repeat: no-repeat;
     background-position:center;
@@ -216,7 +216,7 @@ main > section.container_icons > section:nth-child(4){
     border-radius: 50%;
     box-shadow: var(--color1) 10px 12px 0px;
 
-    background-image: url(/assets/media/icons/group_us.svg);
+    background-image: url(../media/icons/group_us.svg);
     background-size: 50%, 50%;
     background-repeat: no-repeat;
     background-position:center;
@@ -226,7 +226,7 @@ main > section.container_icons > section:nth-child(5){
     border-radius: 50%;
     box-shadow: var(--color1) 10px 12px 0px;
 
-    background-image: url(/assets/media/icons/user-circle_account.svg);
+    background-image: url(../media/icons/user-circle_account.svg);
     background-size: 50%, 50%;
     background-repeat: no-repeat;
     background-position:center;
@@ -236,7 +236,7 @@ main > section.container_icons > section:nth-child(6){
     border-radius: 50%;
     box-shadow: var(--color1) 10px 12px 0px;
 
-    background-image: url(/assets/media/icons/search_nav.svg);
+    background-image: url(../media/icons/search_nav.svg);
     background-size: 50%, 50%;
     background-repeat: no-repeat;
     background-position:center;
@@ -246,7 +246,7 @@ main > section.container_icons > section:nth-child(7){
     border-radius: 50%;
     box-shadow: var(--color1) 10px 12px 0px;
 
-    background-image: url(/assets/media/icons/shop_bag_nav.svg);
+    background-image: url(../media/icons/shop_bag_nav.svg);
     background-size: 50%, 50%;
     background-repeat: no-repeat;
     background-position:center;
@@ -256,7 +256,7 @@ main > section.container_icons > section:nth-child(8){
     border-radius: 50%;
     box-shadow: var(--color1) 10px 12px 0px;
 
-    background-image: url(/assets/media/icons/user_nav.svg);
+    background-image: url(../media/icons/user_nav.svg);
     background-size: 50%, 50%;
     background-repeat: no-repeat;
     background-position:center;
