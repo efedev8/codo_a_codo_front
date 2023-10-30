@@ -54,7 +54,7 @@ footer{
 }
 .box__footer{
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
     padding: 40px;
 
 }
