@@ -28,6 +28,40 @@ main > section.organizer > section.container_img{
     align-self: center;
     justify-self: center;
 }
+
+#developers{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#developers{
+    display: flex;
+    flex-direction: column;
+    margin: 2.5rem;
+    align-self: center;
+    justify-self: center;
+}
+
+#developers > img{
+    border-radius: 50%;
+    width: 14rem;
+    height: 14rem;
+    margin: 2rem;
+    box-shadow: rgba(48, 41, 43, 0.5) 4px 5px 4px;
+}
+
+#developers > p{
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+
+    border-radius: .7rem;
+    background: linear-gradient(135deg, rgba(159,146,233,1) 0%, rgba(216,183,231,1) 100%);
+    box-shadow: #5c5c95 4px 5px 4px;
+    box-shadow: rgba(17, 16, 16, 0.55) 0px 5px 10px;
+}
 p.tag{
     margin: 5px;
     padding: 10px;

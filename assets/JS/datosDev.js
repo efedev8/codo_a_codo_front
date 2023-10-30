@@ -12,15 +12,14 @@ const devRender = (datos_dev) => {
     //div.style.display = 'grid';
   
     let name = document.createElement("p");
-    let email = document.createElement("p");
     let picture = document.createElement("img");
-    name.innerText = datos_dev.name;
-    email.innerText = datos_dev.email;
+    var tag = datos_dev.name + "\n"+ datos_dev.email;
+    
+    name.innerText = tag;
     picture.src = datos_dev.picture;
     picture.width = 60;
   
     div.appendChild(name);
-    div.appendChild(email);
     div.appendChild(picture);
   
     return div;
