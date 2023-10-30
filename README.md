@@ -15,5 +15,6 @@ El proyecto fue pensado para funcionar como un e-commerce relacionado a los prod
 Comenzamos con la maquetación del sitio, planteamos ideas para tener una linea estetica uniforme durante todo el desarrollo, principalmente hablando de los colores, 
 generar una paleta de colores principal y utilizar colores complementarios más distintivos para que resalten dentro la web. 
 Así como en la selección de iconos acorde a la sección en que se utilizará y lo que buscamos representar con ellos.
+
 -Se utilizo la siguiente API para levantar los datos de los desarrolladores en la sección de proyecto: "https://sheetdb.io/api/v1/pxwkunda9j04r"
  Con el token:"7wp2czbzp3d39onuss407c4q7opmedaubhormioh"
