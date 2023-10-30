@@ -40,7 +40,7 @@ main > section.container_txt > p{
 }
 
 footer{
-    width:100px;
+    width: 90vw; 
     padding: 50px 0px;
 
 }
